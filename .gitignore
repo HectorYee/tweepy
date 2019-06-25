@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Except
+!delete.py
+!forever2
+!README.md
+!streams3san.py
+!twitter-clean.ipynb
+!twitter_eda-Copy1.ipynb
+!twitter_streaming.py
+
+!.gitignore

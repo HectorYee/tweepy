@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+from subprocess import Popen
+import sys
+
+# filename = sys.argv[1]
+filename = "/home/ubuntu/streams3san.py"
+# filename = "./streams3san.py"
+
+while True:
+    print("\nStarting " + filename)
+    p = Popen("python3 " + filename, shell=True)
+    p.wait()
+
